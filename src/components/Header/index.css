@@ -1,0 +1,87 @@
+.mobile-header-container {
+  padding: 20px 25px 20px 25px;
+  background-color: #2c364c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75px;
+}
+.large-screen-header-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .large-screen-header-container {
+    display: flex;
+    width: 100%;
+    padding: 20px 50px 20px 50px;
+    background-color: #2c364c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+  }
+  .mobile-header-container {
+    display: none;
+  }
+}
+.website-logo {
+  height: 32px;
+}
+.header-logos-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  list-style-type: none;
+}
+@media screen and (min-width: 768px) {
+  .header-logos-container {
+    display: none;
+  }
+}
+.nav-link {
+  text-decoration: none;
+}
+.home-logo {
+  color: #ffffff;
+  border: none;
+  outline: none;
+  height: 32px;
+  width: 32px;
+}
+.header-logo-names-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.logo-names-container {
+  display: flex;
+  align-items: center;
+}
+.logo-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+.logout-btn {
+  background-color: #4f46e5;
+  padding: 5px 20px 5px 20px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.log-out-logo-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin: 0px;
+  padding: 0px;
+}
